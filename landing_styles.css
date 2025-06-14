@@ -227,7 +227,7 @@ body {
 }
 
 .hero-banner::before {
-  content: "";
+  content: "";  
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
@@ -682,7 +682,6 @@ body {
 .booking-image {
   flex: 1;
   min-width: 280px;
-  text-align: center;
 }
 
 .booking-image img {
