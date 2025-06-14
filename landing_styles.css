@@ -689,7 +689,7 @@ body {
   height: 70vh;
   width: auto;
   max-width: 100%;
-  object-fit: contain;
+  object-fit: fill;
   border-radius: 16px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
