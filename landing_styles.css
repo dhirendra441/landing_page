@@ -303,7 +303,6 @@ body {
   flex: 1;
   min-width: 280px;
 }
-
 .booking-content h2 {
   font-size: 2.2rem;
   margin-bottom: 28px;
@@ -352,7 +351,16 @@ body {
   .feature {
     flex-direction: column;
     align-items: center;
+    width: 45%;
   }
+  .feature-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 }
 
 
@@ -414,7 +422,9 @@ body {
   background: #fff;
   text-align: left;
 }
-
+.services-image{
+  margin : 0 auto;
+}
 .service-card h4 {
   margin: 0 0 6px;
   font-size: 1rem;
@@ -579,7 +589,7 @@ body {
 .trust-features {
   display: flex;
   justify-content: space-between;
-  gap: 40px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
@@ -619,12 +629,13 @@ body {
 /* Responsive layout */
 @media (max-width: 900px) {
   .trust-features {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
   }
 
   .trust-item {
-    max-width: 100%;
+    max-width: 45%;
     text-align: center;
   }
 }
@@ -685,7 +696,7 @@ body {
 }
 
 .booking-image img {
-  height: 70vh;
+  height: 45vh;
   width: auto;
   max-width: 100%;
   object-fit: fill;
