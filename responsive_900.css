@@ -1,0 +1,15 @@
+@media (max-width: 900px) {
+  .trust-features {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .trust-item {
+    max-width: 45%;
+    text-align: center;
+  }
+}
+
+
+

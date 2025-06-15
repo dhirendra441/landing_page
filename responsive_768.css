@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+  .services-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-content h1{
+    font-size: 2.2rem;
+  }
+  .herocontent p{
+    font-size: 0.7rem;
+  }
+  .hero-banner{
+    height: 600px;
+  }
+  .services-content {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .service-card {
+    text-align: left;
+  }
+
+  .services-image img {
+    height: auto;
+  }
+  .why-container {
+    padding: 30px 20px;
+  }
+
+  .why-container h2 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .feature-box {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .instant-booking .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .booking-text {
+    text-align: center;
+  }
+}
+
